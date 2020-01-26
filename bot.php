@@ -12,7 +12,7 @@ $weatherTempMax=$weatherData["main"]["temp_max"];
 
 function send_message($chatId, $text)
 {
-    $apiToken = '123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11';
+    $apiToken = '110201543:AAHdqTcvCH1vGWJxfSeofSAs0K5PALDsaw';
     return file_get_contents("https://api.telegram.org/bot$apiToken/sendMessage?chat_id=$chatId&text="
         . urlencode($text));
 }
