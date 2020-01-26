@@ -75,7 +75,7 @@ $PhysTech='23-02-2019'.'10:00:00';
 
 
 
-switch ($text) {
+switch (strtolower($text)) {
     case '/coin@botayhardbot':
     case '/coin':
     $rnd=random_int (0, 99);
